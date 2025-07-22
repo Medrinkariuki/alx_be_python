@@ -1,5 +1,9 @@
-# Minor comment added to trigger pull request # Weather advice logic using if-elif-else                       
-  weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
+# weather_advice.py
+
+# Ask user for the current weather
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
+
+# Provide clothing recommendations based on the input
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
